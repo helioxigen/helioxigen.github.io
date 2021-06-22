@@ -1,23 +1,33 @@
+html {
+  font-size: 13px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+@media (min-width: 468px) {
+  html {
+    font-size: 14px;
+  }
+}
+
 main {
   max-width: 700px;
   margin: 0 auto;
-  font-size: 14px;
-  font-family: Helvetica, Arial, sans-serif;
 }
 
 h1,
 h2 {
   font-weight: 500;
-  margin-bottom: 0.4rem;
-  margin-top: 0.4rem;
+  margin-top: 0.2em;
 }
 
 h1 {
-  font-size: 28px;
+  margin-bottom: 0.25em;
+  font-size: 2rem;
 }
 
 h2 {
-  font-size: 22px;
+  font-size: 1.3rem;
+  margin-bottom: 1em;
 }
 
 article h3 {
@@ -64,4 +74,8 @@ article h3 {
   height: 3em;
   width: 3em;
   object-fit: cover;
+}
+
+.mb-5 {
+  margin-bottom: 15px;
 }
