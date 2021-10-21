@@ -30,6 +30,11 @@ h2 {
   margin-bottom: 1em;
 }
 
+h5 {
+  font-size: 1em;
+  margin-bottom: 0.5em;
+}
+
 article h3 {
   border-bottom: 1px solid black;
 }
@@ -67,6 +72,11 @@ article h3 {
 .item header {
   display: flex;
   align-items: center;
+}
+
+.item header > h4 {
+  flex: 1;
+  text-align: end;
 }
 
 .item-logo {
